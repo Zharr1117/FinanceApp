@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dashboardText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dashboard_welcome"
+        style="@style/TextAppearance.Title" />
+
+    <Button
+        android:id="@+id/buttonToHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_home"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/buttonToSettings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_settings"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

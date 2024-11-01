@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Finance App</string>
+    <string name="dashboard_welcome">Welcome to Dashboard</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="go_to_settings">Go to Settings</string>
+
+    <!-- Titles and Content for Home and Settings -->
+    <string name="home_screen_title">Home</string>
+    <string name="home_content">This is the Home screen content.</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_content">This is the Settings screen content.</string>
+
+    <!-- Transaction Information -->
+    <string name="transaction_title">Transaction Title</string>
+    <string name="transaction_date">Date</string>
+
+    <!-- Summaries -->
+    <string name="total_balance">Total Balance: $%1$s</string>
+    <string name="monthly_expenses">Monthly Expenses: $%1$s</string>
+
+    <!-- Transaction Amount with Decimal Formatting -->
+    <string name="transaction_amount">$%1$.2f</string>
+    <string name="currency_preference">Currency Preference</string>
+    <string name="theme_preference">Theme Preference</string>
+    <string name="notification_preference">Notification Settings</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="enable_notifications">Enable Notifications</string>
+
+</resources>
